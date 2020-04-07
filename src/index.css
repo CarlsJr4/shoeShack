@@ -19,3 +19,10 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 }
+
+.cartItem {
+	display: grid;
+	align-items: center;
+	grid-gap: 20px;
+	grid-template-columns: auto 1fr;
+}

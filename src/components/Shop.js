@@ -1,12 +1,12 @@
 import React from 'react';
-import Items from './Items/Items';
-import Cart from  './Cart/Cart';
+import ItemsContainer from './Items/ItemsContainer';
+import CartContainer from  './Cart/CartContainer';
 
 export default function Shop() {
 	return (
 		<section className="shop">
-			<Items />
-			<Cart />
+			<ItemsContainer />
+			<CartContainer />
 		</section>
 	)
 }
