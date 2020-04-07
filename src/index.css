@@ -26,3 +26,13 @@ body {
 	grid-gap: 20px;
 	grid-template-columns: auto 1fr;
 }
+
+.cartItem__options {
+	display: flex;
+	align-items: center;
+}
+
+.cartItem__options > * {
+	margin-right: 0.5rem;
+}
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import CartItemQty from './CartItemQty'
+import CartItemOptions from './CartItemOptions'
 
 export default function CartItem() {
 	return (
@@ -8,7 +8,7 @@ export default function CartItem() {
 			<div className="cartItem__info">
 				<p>DOOM Eternal</p>
 				<p>$59.99</p>
-				<CartItemQty />
+				<CartItemOptions />
 			</div>
 		</div>
 	)
