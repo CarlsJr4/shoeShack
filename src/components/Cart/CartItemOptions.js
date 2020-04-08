@@ -3,7 +3,7 @@ import React from 'react'
 export default function CartItemOptions() {
 	return (
 		<div className="cartItem__options">
-			<p>Quantity:</p>	
+			<label htmlFor="cartItem__qty">Quantity:</label>	
 			<select name="cartItem__qty" id="cartItem__qty">
 				<option value="1">1</option>
 				<option value="2">2</option>
