@@ -2,7 +2,7 @@
 // Now we need a reducer to handle adding items to the cart 
 export default function cartReducer(cart = [], action) {
 	let updatedCart = [...cart];
-	const {img, name, price, id} = action;
+	const {img, name, price, id, cartItem, index} = action;
 	switch (action.type) {
 		case 'ADD':
 			const newItem = {
@@ -16,6 +16,9 @@ export default function cartReducer(cart = [], action) {
 			return updatedCart
 		case 'REMOVE':
 			updatedCart = updatedCart.filter(item => item.id !== id);
+			return updatedCart
+		case 'INCREMENT':
+			updatedCart.splice(index, 1, cartItem);
 			return updatedCart
 		default:
 			return cart
