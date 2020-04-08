@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 import cartReducer from './cartReducer';
 import gamesReducer from './gamesReducer';
+import totalsReducer from './totalsReducer';
 
 // What are reducers?
 // Reducers are functions that return state
@@ -42,7 +43,8 @@ import gamesReducer from './gamesReducer';
 
 const rootReducer = combineReducers({
 	cart: cartReducer,
-	games: gamesReducer
+	games: gamesReducer,
+	totals: totalsReducer
 });
 
 export default rootReducer;
