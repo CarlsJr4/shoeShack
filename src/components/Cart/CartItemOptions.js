@@ -1,6 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { useDispatch } from 'react-redux';
 
-export default function CartItemOptions() {
+export default function CartItemOptions({id}) {
+	const dispatch = useDispatch();
+
+	function deleteItem(id) {
+		dispatch({
+			type: 'REMOVE',
+			id
+		})
+	}
+
 	return (
 		<div className="cartItem__options">
 			<label htmlFor="cartItem__qty">Quantity:</label>	
@@ -16,7 +26,7 @@ export default function CartItemOptions() {
 				<option value="9">9</option>
 				<option value="10">10</option>
 			</select>
-			<button>Delete</button>
+			<button onClick={() => deleteItem(id)}>Delete</button>
 		</div>
 	)
 }
