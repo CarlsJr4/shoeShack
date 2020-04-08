@@ -11,7 +11,7 @@ export default function ItemsCard({game}) {
 			<img src={game.img} alt="Video game"/>
 			<h3>{game.name}</h3>
 			<p>${game.price}</p>
-			<ItemsAddToCart />
+			<ItemsAddToCart item={game} />
 		</div>
 	)
 }
