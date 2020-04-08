@@ -8,7 +8,7 @@ export default function CartItem({item}) {
 			<div className="cartItem__info">
 				<p>{item.name}</p>
 				<p>${item.price}</p>
-				<CartItemOptions item={item} />
+				<CartItemOptions />
 			</div>
 		</div>
 	)
