@@ -10,7 +10,8 @@ export default function cartReducer(cart = [], action) {
 				name,
 				price
 			}
-			updatedCart.push(newItem);
+			// Add items in reverse order for better UX
+			updatedCart.splice(0, 0, newItem);
 			return updatedCart
 		default:
 			return cart
