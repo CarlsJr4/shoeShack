@@ -20,6 +20,12 @@ body {
 	grid-template-columns: 2fr 1fr;
 }
 
+.itemsContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
 .cartItem {
 	display: grid;
 	align-items: center;
