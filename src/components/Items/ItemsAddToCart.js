@@ -1,11 +1,18 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function ItemsAddToCart({game, id}) {
 	const dispatch = useDispatch();
+	const cart = useSelector(state => state.cart);
 
 	function addToCart() {
-		// Here, we need to dispatch an action with arguments
+		// If the game is already in the cart, send an alert and do nothing
+		const cartIds = cart.map(item => item.id);
+		if (cartIds.includes(id)) {
+			alert('Game is already in cart.');
+			return
+		}  		
+
 		dispatch({
 			type: 'ADD',
 			img: game.img,
