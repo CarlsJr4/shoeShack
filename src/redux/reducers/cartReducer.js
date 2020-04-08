@@ -9,7 +9,8 @@ export default function cartReducer(cart = [], action) {
 				img,
 				name,
 				price,
-				id
+				id,
+				quantity: 1
 			}
 			updatedCart.splice(0, 0, newItem); // Add items in reverse order for better UX
 			return updatedCart
