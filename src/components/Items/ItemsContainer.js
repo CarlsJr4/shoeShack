@@ -47,7 +47,13 @@ export default function ItemsContainer() {
 		<div>
 			<h1>Items</h1>
 			<div className="itemsContainer">
-				{games.map((game) => <ItemsCard key={game.id} game={game}/>)}
+				{games.map((game) => 
+					<ItemsCard 
+						id={game.id} 
+						key={game.id} 
+						game={game}
+					/>
+				)}
 			</div>
 		</div>
 	)
