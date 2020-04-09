@@ -16,7 +16,7 @@ export default function CartTotals() {
 		<div>
 			<p>Subtotal: ${subtotal}</p>
 			<p>Tax: ${tax}</p>
-			<p>Subtotal: ${total}</p>
+			<p>Total: ${total}</p>
 			<button>Checkout</button>
 		</div>
 	)

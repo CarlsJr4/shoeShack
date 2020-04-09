@@ -25,10 +25,16 @@ export default function Cart() {
 			let finalPrice = item.price * item.quantity
 			return finalPrice
 		});
+		
 		const subtotalReducer = (accumulator, currentValue) => accumulator + currentValue;
-		const subtotal = twoDecimals(prices.reduce(subtotalReducer, 0));
-		const tax = twoDecimals(subtotal * 0.10);
-		const total = twoDecimals(subtotal + tax);
+		let subtotal = prices.reduce(subtotalReducer, 0);
+		let tax = subtotal * 0.10;
+		let total = subtotal + tax;
+
+		subtotal = twoDecimals(subtotal);
+		tax = twoDecimals(tax);
+		total = twoDecimals(total);
+
 		return {
 			subtotal,
 			tax,
