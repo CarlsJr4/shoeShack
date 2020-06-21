@@ -11,6 +11,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  max-width: 200px;
+}
+
 .App {
   margin: 3rem 5rem;
 }

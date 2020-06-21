@@ -1,10 +1,10 @@
 import React from 'react';
 
 export default function Header() {
-	return (
-		<section className="header">
-			<h1>Welcome to GameShed!</h1>
-			<h3>The best place to buy games online.</h3>
-		</section>
-	)
+  return (
+    <section className="header">
+      <h1>Welcome to ShoeShack!</h1>
+      <h3>The best place to buy shoes online.</h3>
+    </section>
+  );
 }
