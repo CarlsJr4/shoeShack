@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/redux-online-store/static/css/main.180cc42a.chunk.css",
-    "main.js": "/redux-online-store/static/js/main.f2c8a640.chunk.js",
-    "main.js.map": "/redux-online-store/static/js/main.f2c8a640.chunk.js.map",
+    "main.css": "/redux-online-store/static/css/main.bbab3751.chunk.css",
+    "main.js": "/redux-online-store/static/js/main.436f3b1b.chunk.js",
+    "main.js.map": "/redux-online-store/static/js/main.436f3b1b.chunk.js.map",
     "runtime-main.js": "/redux-online-store/static/js/runtime-main.dbc01c6d.js",
     "runtime-main.js.map": "/redux-online-store/static/js/runtime-main.dbc01c6d.js.map",
-    "static/js/2.5577d9e7.chunk.js": "/redux-online-store/static/js/2.5577d9e7.chunk.js",
-    "static/js/2.5577d9e7.chunk.js.map": "/redux-online-store/static/js/2.5577d9e7.chunk.js.map",
+    "static/js/2.9ceffa67.chunk.js": "/redux-online-store/static/js/2.9ceffa67.chunk.js",
+    "static/js/2.9ceffa67.chunk.js.map": "/redux-online-store/static/js/2.9ceffa67.chunk.js.map",
     "index.html": "/redux-online-store/index.html",
-    "precache-manifest.f17113c8d3ad3f8d55ed2c18f8b395de.js": "/redux-online-store/precache-manifest.f17113c8d3ad3f8d55ed2c18f8b395de.js",
+    "precache-manifest.95a0b7bd3eb4dcf5ad8f8456f2e770dc.js": "/redux-online-store/precache-manifest.95a0b7bd3eb4dcf5ad8f8456f2e770dc.js",
     "service-worker.js": "/redux-online-store/service-worker.js",
-    "static/css/main.180cc42a.chunk.css.map": "/redux-online-store/static/css/main.180cc42a.chunk.css.map",
-    "static/js/2.5577d9e7.chunk.js.LICENSE.txt": "/redux-online-store/static/js/2.5577d9e7.chunk.js.LICENSE.txt"
+    "static/css/main.bbab3751.chunk.css.map": "/redux-online-store/static/css/main.bbab3751.chunk.css.map",
+    "static/js/2.9ceffa67.chunk.js.LICENSE.txt": "/redux-online-store/static/js/2.9ceffa67.chunk.js.LICENSE.txt",
+    "static/media/black-shoe-2.jpg": "/redux-online-store/static/media/black-shoe-2.aeed04d0.jpg",
+    "static/media/black-shoe.jpg": "/redux-online-store/static/media/black-shoe.55df674f.jpg",
+    "static/media/blue-shoe.jpg": "/redux-online-store/static/media/blue-shoe.dfa633a9.jpg",
+    "static/media/green-shoe.jpg": "/redux-online-store/static/media/green-shoe.04a6109c.jpg",
+    "static/media/white-shoe.jpg": "/redux-online-store/static/media/white-shoe.6e6cf7cd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dbc01c6d.js",
-    "static/js/2.5577d9e7.chunk.js",
-    "static/css/main.180cc42a.chunk.css",
-    "static/js/main.f2c8a640.chunk.js"
+    "static/js/2.9ceffa67.chunk.js",
+    "static/css/main.bbab3751.chunk.css",
+    "static/js/main.436f3b1b.chunk.js"
   ]
 }
