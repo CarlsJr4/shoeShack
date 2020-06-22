@@ -17,31 +17,31 @@ export default function ItemsContainer() {
     // Normally, ID would come directly from the database
     let games = [
       {
-        name: 'Doom Eternal',
+        name: 'Nike Red',
         price: 59.99,
         img: white,
         id: uuidv4(),
       },
       {
-        name: 'Animal Crossing: New Horizons',
+        name: 'Adidas Black',
         price: 59.99,
         img: black,
         id: uuidv4(),
       },
       {
-        name: 'Beat Saber',
+        name: 'Reebok Black',
         price: 29.99,
         img: black2,
         id: uuidv4(),
       },
       {
-        name: 'God of War',
+        name: 'Adidas Blue',
         price: 39.99,
         img: blue,
         id: uuidv4(),
       },
       {
-        name: 'God of War',
+        name: 'Nike Green',
         price: 39.99,
         img: green,
         id: uuidv4(),
@@ -55,7 +55,7 @@ export default function ItemsContainer() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="items">
       <h1>Items</h1>
       <div className="itemsContainer">
         {games.map(game => (
